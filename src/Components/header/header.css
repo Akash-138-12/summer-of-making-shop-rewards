@@ -1,0 +1,24 @@
+.header-main {
+    position: relative;
+    background-color: black;
+    height: max-content;
+    padding: 20px;
+    width: calc(100% - 40px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-bottom: 0.2px solid rgba(255, 255, 255, 0.1);
+}
+
+.header-main-logo {
+    color: white;
+    height: 50px;
+    width: max-content;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}

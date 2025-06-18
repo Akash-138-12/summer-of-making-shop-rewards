@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Hero from './Components/Hero/hero';
+import Header from './Components/header/header';
 
 function App() {
   return (
     <>
-      <span>Welcome to the Shop Rewards App. Get to know about all the rewards specific details which we know.</span>
+      <Header />
+      <Hero />
     </>
   );
 }
